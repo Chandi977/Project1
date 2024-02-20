@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Protest+Riot&display=swap');
+
+body {
+    height: 100vh;
+    width: 100vw;
+}
+
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0 auto;
+    max-width: 60vw;
+}
+
+.gif-container {
+    background-color: #ffffff;
+    width: 90%;
+    height: auto;
+    overflow: hidden;
+}
+
+.gif {
+    width: 100%;
+    height: auto;
+    margin-bottom: 20px;
+    filter: drop-shadow(0 0 0 0 10px #111);
+    mix-blend-mode: multiply;
+}
+
+#gif-first {
+    display: block;
+}
+
+#gif_request {
+    display: none;
+}
+
+#gif_accept {
+    display: none;
+}
+
+.text {
+    color: darksalmon;
+    font-size: 4rem;
+    font-family: "Protest Riot", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+
+.buttons {
+    height: 7vh;
+    width: 70vw;
+    display: inline;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 30px;
+    /* border: 2px solid red; */
+
+}
+
+.submit-button {
+    width: 49.7%;
+    height: 100%;
+    font-size: 50px;
+    background-color: deeppink;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.call {
+    width: 100%;
+    height: 100%;
+    background-color: cornflowerblue;
+    display: none;
+}
+
+.result {
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 20px;
+}
