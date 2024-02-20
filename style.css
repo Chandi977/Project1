@@ -55,7 +55,7 @@ body {
 .buttons {
     height: 7vh;
     width: 70vw;
-    display: inline;
+    display: inline-block;
     justify-content: space-around;
     align-items: center;
     flex-wrap: wrap;
