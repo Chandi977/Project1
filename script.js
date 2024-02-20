@@ -26,5 +26,5 @@ button_accept.addEventListener("click", function () {
 });
 
 button_call.addEventListener("click", function (e) {
-  window.open("tel:8757059888");
+  window.open("tel:+918757059888");
 });
